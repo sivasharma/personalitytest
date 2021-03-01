@@ -1,0 +1,418 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidDomInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintAccidentalOctal" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintAllowBackup" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintAlwaysShowAction" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintAnimatorKeep" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintAppIndexingService" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintAppLinksAutoVerifyWarning" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintAutofill" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintBatteryLife" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintButtonCase" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintButtonStyle" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintContentDescription" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintDeprecated" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintDevModeObsolete" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintDisableBaselineAlignment" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintDuplicateDivider" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintDuplicateUsesFeature" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintEasterEgg" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintExportedContentProvider" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintExportedReceiver" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintExportedService" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintExtraText" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintFloatMath" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGifUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGoogleAppIndexingApiWarning" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGoogleAppIndexingWarning" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGradleDependency" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGradleDynamicVersion" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGradleOverrides" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGradlePath" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintHandlerLeak" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintHardcodedText" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconDensities" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconDipSize" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconDuplicates" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconDuplicatesConfig" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconExpectedSize" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconExtension" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconLocation" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconMissingDensityFolder" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintIconMixedNinePatch" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintInOrMmUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintInefficientWeight" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintInflateParams" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintInnerclassSeparator" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintInstantApps" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintInvalidNavigation" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintJobSchedulerService" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintKeyboardInaccessibleWidget" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintLabelFor" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintLocalSuppress" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintLogConditional" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMangledCRLF" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintManifestOrder" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMergeRootFrame" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMinSdkTooLow" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMipmapIcons" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMissingApplicationIcon" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMissingId" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintMissingVersion" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintNegativeMargin" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintNestedWeights" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintNewerVersionAvailable" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintOrientation" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintOverdraw" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintParcelClassLoader" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintParcelCreator" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintPermissionImpliesUnsupportedChromeOsHardware" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintPermissionImpliesUnsupportedHardware" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintPluralsCandidate" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintPrivateResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintProguardSplit" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintProxyPassword" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintPxUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintRelativeOverlap" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintRtlEnabled" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintRtlHardcoded" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSQLiteString" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintShiftFlags" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSignatureOrSystemPermissions" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSmallSp" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSpUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintStateListReachable" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintStringFormatCount" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSupportAnnotationUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSwitchIntDef" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintSyntheticAccessor" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTextFields" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTooDeepLayout" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTooManyViews" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTypographyDashes" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTypographyEllipsis" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTypographyFractions" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTypographyOther" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTypographyQuotes" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUniqueConstants" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnknownIdInLayout" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnknownNullness" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintUnlocalizedSms" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnsafeDynamicallyLoadedCode" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnsafeNativeCodeLocation" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnusedIds" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnusedQuantity" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnusedResources" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUseOfBundledGooglePlayServices" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUseSparseArrays" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUseValueOf" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUselessLeaf" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUselessParent" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintVectorPath" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintVectorRaster" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintViewConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintViewHolder" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintVisibleForTests" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintWorldReadableFiles" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintWorldWriteableFiles" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidNonConstantResIdsInSwitch" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="ArrayCreationWithoutNewKeyword" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="CatchMayIgnoreException" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="m_ignoreCatchBlocksWithComments" value="false" />
+      <option name="m_ignoreNonEmptyCatchBlock" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ChannelResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="insideTryAllowed" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ClassWithOnlyPrivateConstructors" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CollectionsFieldAccessReplaceableByMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="DesignForExtension" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="DoubleCheckedLocking" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="ignoreOnVolatileVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ExceptionFromCatchWhichDoesntWrap" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreGetMessage" value="false" />
+      <option name="ignoreCantWrap" value="false" />
+    </inspection_tool>
+    <inspection_tool class="FieldMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GroovyEmptyCatchBlock" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="GroovyNegatedIf" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GroovyVariableCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="IOResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredTypesString" value="java.io.ByteArrayOutputStream,java.io.ByteArrayInputStream,java.io.StringBufferInputStream,java.io.CharArrayWriter,java.io.CharArrayReader,java.io.StringWriter,java.io.StringReader" />
+      <option name="insideTryAllowed" value="false" />
+    </inspection_tool>
+    <inspection_tool class="LocalCanBeFinal" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="REPORT_VARIABLES" value="true" />
+      <option name="REPORT_PARAMETERS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="LocalVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_ignoreForLoopParameters" value="false" />
+      <option name="m_ignoreCatchParameters" value="false" />
+      <option name="m_regex" value="([a-z]+)((\d)|([A-Z0-9][a-z0-9]+))*([A-Z])?" />
+      <option name="m_minLength" value="1" />
+      <option name="m_maxLength" value="40" />
+    </inspection_tool>
+    <inspection_tool class="MissortedModifiers" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="m_requireAnnotationsFirst" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NegatedIfElse" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_ignoreNegatedNullComparison" value="true" />
+      <option name="m_ignoreNegatedZeroComparison" value="false" />
+    </inspection_tool>
+    <inspection_tool class="NewMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+      <extension name="InstanceMethodNamingConvention" enabled="true">
+        <option name="m_regex" value="([a-z]+)((\d)|([A-Z0-9][a-z0-9]+))*([A-Z])?" />
+        <option name="m_minLength" value="4" />
+        <option name="m_maxLength" value="40" />
+      </extension>
+    </inspection_tool>
+    <inspection_tool class="OverridableMethodCallDuringObjectConstruction" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ProtectedInFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ProtectedMemberInFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ReplaceCollectionCountWithSize" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="ReplaceNotNullAssertionWithElvisReturn" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SocketResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="insideTryAllowed" value="false" />
+    </inspection_tool>
+    <inspection_tool class="StringToUpperWithoutLocale" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TooBroadCatch" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UNUSED_IMPORT" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignorableAnnotations">
+        <value />
+      </option>
+      <option name="ignoreClassesWithOnlyMain" value="false" />
+    </inspection_tool>
+  </profile>
+</component>

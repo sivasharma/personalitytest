@@ -1,0 +1,25 @@
+android {
+
+    flavorDimensions 'sample'
+
+    productFlavors {
+        dev {
+            applicationIdSuffix ".dev"
+            buildConfigField "boolean", "IS_PRODUCTION", "false"
+            buildConfigField "String", 'SERVER_URL', '"https://raw.githubusercontent.com"'
+            buildConfigField "String", 'APP_VERSION', '"0.0.1"'
+
+        }
+        staging{
+            applicationIdSuffix ".staging"
+            buildConfigField "boolean", "IS_PRODUCTION", "false"
+            buildConfigField "String", 'SERVER_URL', '"https://raw.githubusercontent.com"'
+            buildConfigField "String", 'APP_VERSION', '"0.0.1"'
+
+        }
+        production{
+            // no applicationIdSuffix
+            buildConfigField "boolean", "IS_PRODUCTION", "true"
+        }
+    }
+}

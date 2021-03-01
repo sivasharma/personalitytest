@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        style="@style/cardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearQuestionList"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/top_margin"
+            android:paddingEnd="@dimen/top_margin"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="sample question"
+                android:fontFamily="@font/centrale_sans_book"
+                android:textSize="24sp"/>
+
+            <RadioGroup
+                android:id="@+id/answerRadioGrp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/top_margin"
+                android:fontFamily="@font/centrale_sans_book"
+                android:layout_height="wrap_content">
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>
