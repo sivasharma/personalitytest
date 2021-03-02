@@ -18,6 +18,7 @@
 
         <activity android:name="com.personality.main.category.CategoryActivity"/>
         <activity android:name="com.personality.main.categorydetail.CategoryDetailActivity"/>
+        <activity android:name="com.personality.main.savedresult.PersonalityResultActivity"/>
 
         <activity android:name="com.personality.main.splash.SplashMainActivity">
 

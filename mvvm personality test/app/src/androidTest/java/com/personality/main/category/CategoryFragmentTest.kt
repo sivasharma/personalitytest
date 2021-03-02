@@ -1,43 +1,40 @@
 package com.personality.main.category
 
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate
-import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
-import androidx.test.espresso.assertion.ViewAssertions.matches
-import androidx.test.espresso.contrib.RecyclerViewActions
+import androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition
 import androidx.test.espresso.contrib.RecyclerViewActions.scrollToPosition
-import androidx.test.espresso.intent.rule.IntentsTestRule
-import androidx.test.espresso.matcher.ViewMatchers
-import androidx.test.espresso.matcher.ViewMatchers.*
-import androidx.test.runner.AndroidJUnit4
+import androidx.test.espresso.matcher.RootMatchers
+import androidx.test.espresso.matcher.ViewMatchers.withId
+import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
+import androidx.test.rule.ActivityTestRule
 import com.personality.R
+import org.hamcrest.Matchers
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-@RunWith(AndroidJUnit4::class)
+@RunWith(AndroidJUnit4ClassRunner::class)
 class CategoryFragmentTest {
 
-    @get:Rule
-    var fragmentTestRule: IntentsTestRule<CategoryActivity> =
-        IntentsTestRule(CategoryActivity::class.java)
+    @Rule
+    @JvmField
+    var fragmentTestRule = ActivityTestRule(CategoryActivity::class.java, true, true)
 
     @Test
     fun itShouldReturnTotalCountOfItems() {
         val recyclerView =
             fragmentTestRule.activity.findViewById<RecyclerView>(R.id.recyclerCategoryView)
-        val count = (recyclerView.adapter ?: return).itemCount
+        val count = (recyclerView.adapter!!).itemCount
         onView(withId(R.id.recyclerCategoryView))
             .perform(scrollToPosition<RecyclerView.ViewHolder>(count - 1))
     }
 
     @Test
     fun itShouldReturnCorrectItemAtPosition() {
-        val recyclerView = fragmentTestRule.activity.findViewById<RecyclerView>(R.id.recyclerCategoryView)
-       // val count = recyclerView.adapter?.getItemId(0)
-
-        onView(withId(R.id.recyclerCategoryView)).perform(scrollToPosition<RecyclerView.ViewHolder>(2)).check(matches(withText("lifeStyle")))
+        onView(withId(R.id.recyclerCategoryView))
+            .inRoot(RootMatchers.withDecorView(Matchers.`is`(fragmentTestRule.activity.window.decorView)))
+            .perform(actionOnItemAtPosition<RecyclerView.ViewHolder>(0, click()))
     }
 }

@@ -2,6 +2,8 @@
     <string name="app_name">Personality Test</string>
     <string name="menu_favourite">Save</string>
     <string name="lbl_category">Category</string>
+    <string name="lbl_result">Your Result</string>
+
     <string name="lbl_category_detail">Category Detail</string>
 
 </resources>

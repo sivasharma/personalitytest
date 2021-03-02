@@ -1,11 +1,10 @@
 package com.personality.main.categorydetail
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -19,6 +18,7 @@ import com.personality.main.category.CategoryFragment.Companion.QUESTIONS
 import com.personality.main.model.PersonalityDataWrapper
 import com.personality.main.room.PersonalityStore
 import com.personality.main.room.PersonalityStoreRoomDatabase
+import com.personality.main.savedresult.PersonalityResultActivity
 import kotlinx.coroutines.*
 
 class CategoryDetailFragment : Fragment(), CoroutineScope by MainScope(),
@@ -42,6 +42,7 @@ class CategoryDetailFragment : Fragment(), CoroutineScope by MainScope(),
             DataBindingUtil.inflate(inflater, R.layout.category_detail_fragment, container, false)
         viewModel = ViewModelProvider(this).get(CategoryDetailViewModel::class.java)
         database = PersonalityStoreRoomDatabase.getDatabase(requireActivity().applicationContext)
+        setHasOptionsMenu(true)
         setAdapter()
         return binding.root
     }
@@ -76,5 +77,22 @@ class CategoryDetailFragment : Fragment(), CoroutineScope by MainScope(),
                 database.personalityStoreDao().insert(PersonalityStore(question, answer))
             }
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater.inflate(R.menu.personality_menu, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.menu_save_favourite) {
+            navigate()
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun navigate() {
+        val intent = Intent(requireActivity(), PersonalityResultActivity::class.java)
+        startActivity(intent)
     }
 }

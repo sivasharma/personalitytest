@@ -12,7 +12,7 @@ class PersonalityResultAdapter(private val list: List<PersonalityStore>) :
     RecyclerView.Adapter<PersonalityResultAdapter.ViewHolder>() {
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        var question: TextView = view.findViewById(R.id.lblAnswer)
+        var question: TextView = view.findViewById(R.id.lblQuestion)
         var answer: TextView = view.findViewById(R.id.lblAnswer)
     }
 

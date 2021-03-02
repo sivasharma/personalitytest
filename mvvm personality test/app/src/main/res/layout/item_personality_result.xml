@@ -32,6 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:paddingTop="@dimen/top_margin"
                 tools:text="sample answer"
                 android:fontFamily="@font/centrale_sans_book"
                 android:textSize="24sp"/>

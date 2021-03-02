@@ -3,12 +3,10 @@ package com.personality.main.category
 
 import android.content.Context
 import com.android.volley.Response
-import com.android.volley.VolleyError
 import com.nhaarman.mockitokotlin2.whenever
 import com.personality.main.service.GsonRequest
 import com.personality.main.service.VolleyService
 import io.mockk.MockKAnnotations
-import io.mockk.every
 import io.mockk.impl.annotations.MockK
 import kotlinx.coroutines.runBlocking
 import org.junit.Before
@@ -25,12 +23,6 @@ class CategoryUseCaseTest {
     var volleyService = VolleyService
 
     lateinit var subject: CategoryUseCase
-
-    @MockK
-    private lateinit var mockSuccessResponse: Response.Listener<String>
-
-    @MockK
-    lateinit var volleyError: VolleyError
 
     @MockK
     lateinit var gsonRequestMock: GsonRequest<*>
@@ -52,7 +44,6 @@ class CategoryUseCaseTest {
 
     @Test
     fun `it should load personality data when called`() = runBlocking {
-        every { }
-       // val result = subject.loadPersonalityData()
+
     }
 }

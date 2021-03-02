@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.personality.R
 import com.personality.databinding.ItemCategoryBinding
 import com.personality.main.model.PersonalityDataWrapper
@@ -24,9 +23,9 @@ class CategoryAdapter(
         )
     }
 
-     class ViewHolder(view: ItemCategoryBinding) : RecyclerView.ViewHolder(view.root) {
-        var image = view.imageCategoryLeft
+    class ViewHolder(view: ItemCategoryBinding) : RecyclerView.ViewHolder(view.root) {
         var name = view.categoryName
+        var parentLayout = view.constraintLayout
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryAdapter.ViewHolder {
@@ -47,15 +46,8 @@ class CategoryAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val category = list.categories[position]
         holder.name.text = category
-        holder.itemView.setOnClickListener {
+        holder.parentLayout.setOnClickListener {
             listener.onItemClicked(category, list)
         }
-        Glide.with(holder.image)
-            .load("https://www.lunapic.com/editor/premade/transparent.gif")
-            .centerCrop()
-            .placeholder(R.drawable.ic_launcher_foreground)
-            .error(R.drawable.ic_launcher_foreground)
-            .fallback(R.drawable.ic_launcher_foreground)
-            .into(holder.image)
     }
 }

@@ -19,7 +19,7 @@ class CategoryUseCase @Inject constructor(
     private val volleyService: VolleyService
 ) {
     private val url =
-        BuildConfig.SERVER_URL.plus("/sparknetworks/coding_exercises_options/master/personality_test/database/personality_test.json")
+        BuildConfig.SERVER_URL.plus("/sivasharma/sampledata/main/testdata.json")
 
     suspend fun loadPersonalityData(): PersonalityDataWrapper {
         return suspendCancellableCoroutine { result ->

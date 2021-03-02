@@ -7,8 +7,11 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.personality.R
 import com.personality.databinding.PersonalityResultActivityBinding
+import com.personality.databinding.PersonalityResultFragmentBinding
 import com.personality.main.room.PersonalityStore
 import com.personality.main.room.PersonalityStoreRoomDatabase
 import kotlinx.coroutines.*
@@ -21,7 +24,7 @@ class PersonalityResultFragment : Fragment(), CoroutineScope by MainScope() {
 
     private lateinit var db: PersonalityStoreRoomDatabase
     private lateinit var viewModel: PersonalityResultViewModel
-    private lateinit var binding: PersonalityResultActivityBinding
+    private lateinit var binding: PersonalityResultFragmentBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -45,8 +48,11 @@ class PersonalityResultFragment : Fragment(), CoroutineScope by MainScope() {
                 db = PersonalityStoreRoomDatabase.getDatabase(requireActivity().applicationContext)
                 data = db.personalityStoreDao().getPersonalityList()
             }
+            val adapter = PersonalityResultAdapter(data)
+            val layoutManager = LinearLayoutManager(context)
+            binding.recyclerViewPersonalityResult.layoutManager = layoutManager
+            binding.recyclerViewPersonalityResult.itemAnimator = DefaultItemAnimator()
+            binding.recyclerViewPersonalityResult.adapter = adapter
         }
-         val adapter = PersonalityResultAdapter(data)
-        // val layoutManager = LinearLayoutManager(context)
     }
 }

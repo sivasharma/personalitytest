@@ -93,7 +93,7 @@ class CategoryFragment : Fragment(),
         category: String,
         list: PersonalityDataWrapper
     ) {
-        Logger.i("shiv", "clicked")
+        Logger.i("item click", "clicked")
         val intent = Intent(requireContext(), CategoryDetailActivity::class.java)
         intent.putExtra(CATEGORY, category)
         intent.putExtra(QUESTIONS, Gson().toJson(list))
